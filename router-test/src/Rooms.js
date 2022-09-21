@@ -13,7 +13,7 @@ const Rooms = () => {
       <br />
       <Routes>
         <Route path="/:roomId" element={<Room />}></Route>
-        <Route path="/" element={<h3>방을 선택해 주세요.</h3>}></Route>
+        <Route path="." element={<h3>방을 선택해 주세요.</h3>}></Route>
       </Routes>
     </div>
   );
